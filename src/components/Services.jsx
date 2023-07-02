@@ -16,7 +16,7 @@ import Service from './ServiceItem'
 
 export default function Services() {
   return (
-    <section className="flex  flex-wrap justify-center">
+    <section className="z-10 flex  flex-wrap justify-center font-Roboto">
       <Service h1="Convites">
         <div className="flex flex-row items-center justify-between gap-3">
           <p>Casamento</p>{' '}

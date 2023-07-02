@@ -7,7 +7,7 @@ import NavBar from './NavBar'
 import { useState } from 'react'
 import Link from 'next/link'
 import Image from 'next/image'
-import logo1 from '../../public/images/logo10.png'
+import logo1 from '../../public/images/icon.png'
 
 export default function Header() {
   const [menu, setMenu] = useState(false)
@@ -18,7 +18,7 @@ export default function Header() {
 
   return (
     <>
-      <header className="fixed z-30 flex h-20  w-full items-center justify-evenly overflow-hidden border-b-2 border-solid  border-y-black bg-pink-500 text-white dark:border-y-pink-900  dark:bg-black ">
+      <header className="fixed z-30 flex h-20 w-full items-center  justify-evenly overflow-hidden border-b-2 border-solid border-y-black bg-pink-500  font-Roboto text-white dark:border-y-pink-900 dark:bg-black">
         <Link href="/">
           <Image
             src={logo1}
@@ -31,10 +31,10 @@ export default function Header() {
         </Link>
 
         <ChangeTheme />
-
+        <NavBar />
         <div
           onClick={handleMenu}
-          className="flex h-[50px] w-[50px] cursor-pointer items-center justify-center rounded-full  border-[2px] border-white hover:bg-pink-300  dark:hover:bg-gray-800"
+          className="flex h-[50px] w-[50px] cursor-pointer items-center justify-center rounded-full  border-[2px] border-white hover:bg-pink-300  dark:hover:bg-gray-800 md:hidden"
         >
           {menu === false ? (
             <GiHamburgerMenu className="text-[22px] text-white" />
@@ -44,7 +44,7 @@ export default function Header() {
         </div>
       </header>
 
-      {menu && <NavBar handleMenu={handleMenu} />}
+      {menu && <NavBar handleMenu={handleMenu} menu={menu} />}
     </>
   )
 }
