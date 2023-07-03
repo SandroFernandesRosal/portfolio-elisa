@@ -73,7 +73,7 @@ export default function Contact() {
           placeholder="Digite seu nome"
           value={nameInput}
           onChange={(e) => setNameInput(e.target.value)}
-          className="m-[3px] cursor-pointer rounded-br-3xl  rounded-tl-3xl border-[2px] border-solid border-pink-500 bg-transparent p-[5px] text-center font-black focus:outline-none "
+          className="m-[3px] cursor-pointer rounded-br-3xl  rounded-tl-3xl border-[2px] border-solid border-pink-500 bg-transparent p-[5px] text-center font-black focus:border-pink-500 focus:ring-0"
         />
 
         <input
@@ -84,7 +84,7 @@ export default function Contact() {
           placeholder="Digite seu email"
           value={emailInput}
           onChange={(e) => setEmailInput(e.target.value)}
-          className="m-[3px] cursor-pointer rounded-br-3xl  rounded-tl-3xl border-[2px] border-solid border-pink-500 bg-transparent p-[5px] text-center font-black focus:outline-none "
+          className="m-[3px] cursor-pointer rounded-br-3xl  rounded-tl-3xl border-[2px] border-solid border-pink-500 bg-transparent p-[5px] text-center font-black focus:border-pink-500 focus:ring-0 "
         />
 
         <input
@@ -95,7 +95,7 @@ export default function Contact() {
           placeholder="Digite o assunto"
           value={assuntoInput}
           onChange={(e) => setAssuntoInput(e.target.value)}
-          className="m-[3px] cursor-pointer rounded-br-3xl  rounded-tl-3xl border-[2px] border-solid border-pink-500 bg-transparent p-[5px] text-center font-black focus:outline-none "
+          className="m-[3px] cursor-pointer rounded-br-3xl  rounded-tl-3xl border-[2px] border-solid border-pink-500 bg-transparent p-[5px] text-center font-black focus:border-pink-500 focus:ring-0 "
         />
 
         <textarea
@@ -107,7 +107,7 @@ export default function Contact() {
           placeholder="Digite sua mensagem"
           value={textInput}
           onChange={(e) => setTextInput(e.target.value)}
-          className="m-[3px] cursor-pointer rounded-br-3xl  rounded-tl-3xl border-[2px] border-solid border-pink-500 bg-transparent p-[5px] text-center font-black focus:outline-none "
+          className="m-[3px] cursor-pointer rounded-br-3xl  rounded-tl-3xl border-[2px] border-solid border-pink-500 bg-transparent p-[5px] text-center font-black focus:border-pink-500 focus:ring-0 "
         ></textarea>
 
         <button

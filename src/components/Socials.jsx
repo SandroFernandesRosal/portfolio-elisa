@@ -8,7 +8,7 @@ export default function Socials() {
         href="https://api.whatsapp.com/send?phone=5521966849877"
         target="blank"
       >
-        <FaWhatsapp className="text-pink-500 hover:text-pink-400 " />
+        <FaWhatsapp className="text-pink-500 hover:text-pink-400" />
       </Link>
 
       <Link
