@@ -23,7 +23,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="pt-br" suppressHydrationWarning>
-      <body className={`${roboto.variable} ${cookie.variable} w-[100vw]`}>
+      <body className={`${roboto.variable} ${cookie.variable}`}>
         <Providers>
           <Header />
           {children}
