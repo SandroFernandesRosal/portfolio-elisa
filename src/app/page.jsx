@@ -11,7 +11,7 @@ export default function Home() {
 
       <div className="z-9 flex w-full flex-wrap items-center justify-evenly gap-10">
         <section className="flex w-[400px] flex-col items-center justify-center">
-          <h1 className="overflow-hidden font-Cookie text-5xl font-bold text-pink-500">
+          <h1 className="overflow-hidden font-Cookie text-5xl  text-pink-500">
             Elisa Rosal
           </h1>
           <p>Estudante de Marketing Digital</p>

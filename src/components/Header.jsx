@@ -18,7 +18,7 @@ export default function Header() {
 
   return (
     <>
-      <header className="fixed z-30 flex h-20 w-full items-center  justify-evenly overflow-hidden border-b-2 border-solid border-y-black bg-pink-500  font-Roboto text-white dark:border-y-pink-900 dark:bg-black">
+      <header className="fixed z-30 flex h-20 w-[100vw] items-center  justify-evenly overflow-hidden border-b-2 border-solid border-y-black bg-pink-500  font-Roboto text-white dark:border-y-pink-900 dark:bg-black">
         <Link href="/">
           <Image
             src={logo1}
